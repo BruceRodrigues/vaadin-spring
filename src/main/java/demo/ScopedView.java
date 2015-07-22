@@ -16,6 +16,7 @@ public class ScopedView extends VerticalLayout implements View {
 	@PostConstruct
 	private void init() {
 		this.addComponent(new Label("Scoped view"));
+		System.out.println("POST CONSTRUCT NOT SCOPED");
 	}
 
 	@Override
